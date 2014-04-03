@@ -1,0 +1,3 @@
+<?php
+define("SECONDCHANCE_FACEBOOK_ID", '');
+define("SECONDCHANCE_FACEBOOK_SECRET", '');

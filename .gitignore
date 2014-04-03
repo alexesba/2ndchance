@@ -8,3 +8,4 @@ composer.lock
 Thumbs.db
 app/config/database.php
 app/config/database.php.production
+bootstrap/env_variables.php
