@@ -1,0 +1,10 @@
+.login-form{
+    width:225px;
+    padding: 15px; padding-bottom: 0px;
+}
+.login-form > li > a {
+    white-space: normal;
+}
+login-form > form{
+  min-width: 225px;
+}
