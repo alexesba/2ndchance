@@ -1,6 +1,10 @@
 <?php
 
 class Gallery extends \Eloquent {
-  use Codesleeve\Stapler\Stapler;
   protected $fillable = [];
+
+  public function pictures()
+  {
+    return $this->hasMany('Picture');
+  }
 }
