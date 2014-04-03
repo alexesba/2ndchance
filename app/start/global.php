@@ -96,7 +96,7 @@ App::bind('Hybrid_Auth', function(){
         ),
         "Facebook"   => array (
           "enabled"    => true,
-          "keys"       => array ( "id" => SECODNCHANCE_FACEBOOK_ID, "secret" => SECONDCHANCE_FACEBOOK_SECRET),
+          "keys"       => array ( "id" => SECONDCHANCE_FACEBOOK_ID, "secret" => SECONDCHANCE_FACEBOOK_SECRET),
         ),
         "Twitter"    => array (
           "enabled"    => true,
