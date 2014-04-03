@@ -7,4 +7,9 @@ class Gallery extends \Eloquent {
   {
     return $this->hasMany('Picture');
   }
+
+  public function pet()
+  {
+    return $this->belongsTo('Pet');
+  }
 }
